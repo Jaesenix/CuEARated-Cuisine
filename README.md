@@ -1,1 +1,1 @@
-# Project-1
+# CuEARated Cuisine
