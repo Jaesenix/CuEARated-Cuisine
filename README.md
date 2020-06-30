@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# CuEARated-Cuisine
+=======
 # CuEARated Cuisine
+>>>>>>> 703f46ba8e00088ecf48febf24413f373b26db45
 
 https://docs.google.com/document/d/1VsAG-uksAfr5GX-3artgjjNF59ma4k5S-SWH6rONs1k/edit?ts=5efa1494
 
