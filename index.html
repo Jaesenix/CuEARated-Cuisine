@@ -4,25 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="style.css" type="text/css" rel="stylesheet">
     <title>CuEARated Cuisine</title>
 </head>
 
 <body>
-    <header>
-        <h1>CuEARated Cuisine</h1>
-    </header>
-    <div>
-        <form>
-            <h2>What kind of food would you like?</h2>
-            <input id="searchQuery"></input>
-            <button id="searchBtn">Search</button>
-        </form>
+    <div class="container">
+        <header>
+            <h1>CuEARated Cuisine</h1>
+        </header> 
+        <!-- Recipes section/page -->
+        <section class="recipes">
+            <!-- Question -->
+            <h3 class="bubble thought">What do I want to eat?</h3>
+
+            <!-- Google API results -->
+            <h3 class="bubble speech">
+                <form>
+                    <input id="searchQuery"></input>
+                    <button id="searchBtn">Search</button>
+            </h3>
+        </section>
+        <br>
+        <!-- Music section/page -->
+        <section class="music">
+            <!-- Question -->
+            <h3 class="bubble thought">What do I want to<br> listen to?</h3>
+            <!-- Genre option buttons here -->
+            <!-- Spotify API results here -->
+        </section>
     </div>
-    <div id="test"></div>
-    <!-- jQuery JS -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script type="text/javascript" src="cse.js"></script>
 </body>
 
