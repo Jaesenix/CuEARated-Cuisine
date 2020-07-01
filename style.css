@@ -1,7 +1,108 @@
 body {
     background-color: rgba(0, 0, 0, 0.918);
+    
 }
 
-header {
+header > h1 {
     color: whitesmoke;
+    font-size: 100px;
+    text-align: center;
+    margin: 20px;
 }
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+h3.bubble {
+	position: relative;
+	width: 300px;
+	text-align: center;
+	line-height: 1.4em;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 8px solid #333;
+	border-radius: 30px;
+	font-family: sans-serif;
+	padding: 20px;
+	font-size: 30px;
+}
+
+h3.bubble:before,
+h3.bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+    height: 0;
+}
+
+h3.thought {
+	width: 400px;
+	border-radius: 200px;
+	padding: 30px;	
+}
+
+h3.thought:before,
+h3.thought:after {
+	right: 10px;
+	bottom: -30px;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 8px solid #333;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+}
+
+h3.thought:after {
+	width: 20px;
+	height: 20px;
+	right: 5px;
+	bottom: -40px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
+
+h3.speech:before {
+	left: 20px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #333 transparent transparent #333;
+}
+
+h3.speech:after {
+	left: 30px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+/* .speech-bubble {
+	position: relative;
+	background: #00aabb;
+    border-radius: .4em;
+    margin: 100px 100px;
+}
+
+.speech-bubble > h2 {
+    padding: 30px;
+    text-align: center;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 45px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -22.5px;
+	margin-bottom: -45px;
+} */
