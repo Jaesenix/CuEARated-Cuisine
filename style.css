@@ -15,7 +15,7 @@ header > h1 {
     width: 100%;
 }
 
-h3.bubble {
+.bubble {
 	position: relative;
 	width: 300px;
 	text-align: center;
@@ -29,22 +29,22 @@ h3.bubble {
 	font-size: 30px;
 }
 
-h3.bubble:before,
-h3.bubble:after {
+.bubble:before,
+.bubble:after {
 	content: ' ';
 	position: absolute;
 	width: 0;
     height: 0;
 }
 
-h3.thought {
+.thought {
 	width: 400px;
 	border-radius: 200px;
 	padding: 30px;	
 }
 
-h3.thought:before,
-h3.thought:after {
+.thought:before,
+.thought:after {
 	right: 10px;
 	bottom: -30px;
 	width: 40px;
@@ -56,7 +56,7 @@ h3.thought:after {
 	border-radius: 28px;
 }
 
-h3.thought:after {
+.thought:after {
 	width: 20px;
 	height: 20px;
 	right: 5px;
@@ -66,14 +66,14 @@ h3.thought:after {
 	border-radius: 18px;
 }
 
-h3.speech:before {
+.speech:before {
 	left: 20px;
 	bottom: -50px;
 	border: 25px solid;
 	border-color: #333 transparent transparent #333;
 }
 
-h3.speech:after {
+.speech:after {
 	left: 30px;
 	bottom: -30px;
 	border: 15px solid;
