@@ -5,7 +5,8 @@ var baseURL = "https://www.googleapis.com/customsearch/v1?";
 
 // Three query parameters 
 // API Key 
-var apiKey = "AIzaSyCbZdi8fcqGYnY90iVEnarEYSiPtOCZx4E";
+var apiKey = "AIzaSyAT819HAf4lPsNGn_oJhOTME0PCUd9qVnc";
+// var apiKey = "AIzaSyCbZdi8fcqGYnY90iVEnarEYSiPtOCZx4E";
 //Custom Search Engine ID
 var cx = "003022703542860733389:vjuxq0illje";
 // Search Query 
@@ -37,10 +38,10 @@ $("#searchBtn").click(function () {
     var item = response.items[randomize];
     console.log(item);
     // Create link to website array
-    $("#queryResults").append("<a target='_blank' href='" + item.link + "'>" + item.htmlTitle + "</a>");
+    $("#queryResults").append("<a target='_blank' href='" + item.link + "'>" + item.htmlTitle + "</a><br>");
     // Condition for when the response website has an image
     if (item.pagemap.cse_thumbnail[0].src) {
-      $("#queryResults").append("<img class='responseImg' src='" + item.pagemap.cse_thumbnail[0].src + "'>");
+      $("#queryResults").append("<br>G<img class='responseImg' src='" + item.pagemap.cse_thumbnail[0].src + "'>");
     };
     // Add text 
     $("#queryResults").append("<p class='font-weight-light'>Not feeling it? Search again!");
