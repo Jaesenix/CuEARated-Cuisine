@@ -17,7 +17,7 @@ header > h1 {
 
 .bubble {
 	position: relative;
-	width: 300px;
+	width: 400px;
 	text-align: center;
 	line-height: 1.4em;
 	margin: 40px auto;
@@ -78,6 +78,22 @@ header > h1 {
 	bottom: -30px;
 	border: 15px solid;
 	border-color: #fff transparent transparent #fff;
+}
+
+#queryResults {
+	width: auto;
+	height: auto;
+}
+
+.genre-buttons {
+	text-align: center;
+	padding: 10px;
+}
+
+.btn {
+	height: 150px;
+	width: 150px;
+	margin: 10px;
 }
 
 /* .speech-bubble {
