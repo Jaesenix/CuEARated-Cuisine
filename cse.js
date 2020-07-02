@@ -41,7 +41,7 @@ $("#searchBtn").click(function () {
     $("#queryResults").append("<a target='_blank' href='" + item.link + "'>" + item.htmlTitle + "</a><br>");
     // Condition for when the response website has an image
     if (item.pagemap.cse_thumbnail[0].src) {
-      $("#queryResults").append("<br>G<img class='responseImg' src='" + item.pagemap.cse_thumbnail[0].src + "'>");
+      $("#queryResults").append("<br><img class='responseImg' src='" + item.pagemap.cse_thumbnail[0].src + "'>");
     };
     // Add text 
     $("#queryResults").append("<p class='font-weight-light'>Not feeling it? Search again!");
