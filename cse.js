@@ -19,7 +19,7 @@ $("#searchBtn").click(function () {
   event.preventDefault();
   let searchQuery = $("#searchQuery").val();
   // Query URL
-  var queryURL = baseURL + "key=" + apiKey + "&cx=" + cx + "&q=" + searchQuery;
+  var queryURL = baseURL + "key=" + apiKey + "&cx=" + cx + "&q=" + searchQuery + "recipe";
   console.log(queryURL);
   // AJAX Function 
   $.ajax({
@@ -27,45 +27,22 @@ $("#searchBtn").click(function () {
     method: "GET"
   }).then(function (response) {
     console.log(response);
+    // Clear the search results div from previous run
+    $("#queryResults").empty();
+    // Add response bubble to html
+    $("#cseDiv").removeClass("invisible");
+    var randomQuery = response.items.length;
+    // Randomly select an array for a response website
+    var randomize = Math.floor(Math.random() * randomQuery) + 0;
+    var item = response.items[randomize];
+    console.log(item);
+    // Create link to website array
+    $("#queryResults").append("<a target='_blank' href='" + item.link + "'>" + item.htmlTitle + "</a>");
+    // Condition for when the response website has an image
+    if (item.pagemap.cse_thumbnail[0].src) {
+      $("#queryResults").append("<img class='responseImg' src='" + item.pagemap.cse_thumbnail[0].src + "'>");
+    };
+    // Add text 
+    $("#queryResults").append("<p class='font-weight-light'>Not feeling it? Search again!");
   })
 });
-  
-
-
-
-
-
-
-
-
-// const myInitCallback = function() {
-//   if (document.readyState == 'complete') {
-//     // Document is ready when CSE element is initialized.
-//     // Render an element with both search box and search results in div with id 'test'.
-//     google.search.cse.element.render(
-//         {
-//           div: "test",
-//           tag: 'search'
-//          });
-//   } else {
-//     // Document is not ready yet, when CSE element is initialized.
-//     google.setOnLoadCallback(function() {
-//        // Render an element with both search box and search results in div with id 'test'.
-//         google.search.cse.element.render(
-//             {
-//               div: "test",
-//               tag: 'search'
-//             });
-//     }, true);
-//   }
-// };
-
-// // Insert it before the CSE code snippet so the global properties like parsetags and callback
-// // are available when cse.js runs.
-// window.__gcse = {
-//   parsetags: 'explicit',
-//   initializationCallback: myInitCallback
-// };
-
-// Main Processes
-// ===============================================================================
