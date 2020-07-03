@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="style.css" type="text/css" rel="stylesheet">
     <title>CuEARated Cuisine</title>
 </head>
@@ -13,20 +14,32 @@
     <div class="container">
         <header>
             <h1>CuEARated Cuisine</h1>
-        </header> 
+        </header>
         <!-- Recipes section/page -->
         <section class="recipes">
             <!-- Question -->
             <div class="bubble thought">What do I want to eat?
-            <form>
-                <input id="searchQuery"></input>
-                <button id="searchBtn">Search</button>
-            </form>
-        </div>
+                <form>
+                    <input id="searchQuery"></input>
+                    <button id="searchBtn">Search</button>
+                </form>
+            </div>
 
             <!-- Google API results -->
             <div class="bubble speech invisible" id="cseDiv">
                 <div id="queryResults"></div>
+            </div>
+        </section>
+        <br>
+
+        <!-- Spotify section/page -->
+        <section class="playlist">
+            <!-- Question -->
+            <div class="bubble thought">Now let's set the mood.
+                <button class="btn btn-primary" id="feelingLuckyBtn" style="background-color: #1DB954;">feeling lucky <i
+                    class="fa fa-headphones" aria-hidden="true"></i></button>
+                <br></br>
+                <div id="spotifyPlayer"></div>
             </div>
         </section>
         <br>
@@ -37,7 +50,7 @@
 
             <!-- Question -->
             <div class="bubble thought">Where's the nearest<br>grocery store?</div>
-            
+
             <!-- Maps API results here -->
         </section>
     </div>
@@ -45,6 +58,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="cse.js"></script>
     <script type="text/javascript" src="giphy.js"></script>
+    <script type="text/javascript" src="spotify.js"></script>
 </body>
 
 </html>
