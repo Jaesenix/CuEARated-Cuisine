@@ -6,7 +6,7 @@ var chef = "";
 var gordonRamsey = "gordonramsey";
 var inaGarten = "inagarten";
 var guyFieri = "guyfieri";
-var marcusSamuelsson = "marcussamuelsson";
+var padmaLakshmi = "padmalakshmi";
 
 // Gordon Ramsey Button
 $("#gordonramsey").click(function () {
