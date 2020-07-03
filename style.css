@@ -17,7 +17,7 @@ header > h1 {
 
 .bubble {
 	position: relative;
-	width: 300px;
+	width: 400px;
 	text-align: center;
 	line-height: 1.4em;
 	margin: 40px auto;
@@ -78,6 +78,11 @@ header > h1 {
 	bottom: -30px;
 	border: 15px solid;
 	border-color: #fff transparent transparent #fff;
+}
+
+#cseDiv {
+	width: auto;
+	height: auto;
 }
 
 /* .speech-bubble {
