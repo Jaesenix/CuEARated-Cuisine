@@ -39,21 +39,14 @@ Demo:
 ![Cooking Playlist](assets/3-cookingplaylist.png)
 
 
-
-Wireframe or sketch of the design:
-
-
-
-
-
 APIs to be used:
 
-Giphy
+Giphy<br/>
 Google Custom Search Engine
 
-Breakdown of tasks:
+Breakdown of tasks:<br/>
 
-Front-end: Valeria
-Back-end:
-Google Custom Search Engine API and Spotify JavaScript (Jacqueline)
+Front-end: Valeria<br/>
+Back-end:<br/>
+Google Custom Search Engine API and Spotify JavaScript (Jacqueline)<br/>
 Giphy API (Janella)
