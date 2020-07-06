@@ -32,6 +32,14 @@ THEN a randomized Spotify cooking playlist appears
 WHEN I do not like the playlist
 THEN I can choose another playlist by clicking the button again
 
+
+Demo:
+![Pick Your Chef](Assets/pickyourchef.png)
+![Choose Your Recipe](Assets/chooseyourrecipe.png)
+![Cooking Playlist](Assets/cookingplaylist.png)
+
+
+
 Wireframe or sketch of the design:
 
 
