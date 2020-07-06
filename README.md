@@ -34,9 +34,9 @@ THEN I can choose another playlist by clicking the button again
 
 
 Demo:
-![Pick Your Chef](Assets/pickyourchef.png)
-![Choose Your Recipe](Assets/chooseyourrecipe.png)
-![Cooking Playlist](Assets/cookingplaylist.png)
+![Pick Your Chef](assets/1-pickyourchef.png)
+![Choose Your Recipe](assets/2-chooseyourrecipe.png)
+![Cooking Playlist](assets/3-cookingplaylist.png)
 
 
 
