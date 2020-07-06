@@ -2,8 +2,6 @@
 
 https://docs.google.com/document/d/1VsAG-uksAfr5GX-3artgjjNF59ma4k5S-SWH6rONs1k/edit?ts=5efa1494
 
-## Title: CuEARated Cuisine
-
 ## Project description: 
 
 As “stay-at-home” restrictions continue due to the COVID-19 pandemic, the opportunity for people to cook at home is greater than ever before.
