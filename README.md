@@ -12,24 +12,24 @@ Our application allows users the opportunity to select a number of celebrity che
 
 User story: 
 
-AS A person who enjoys dining experiences,
-I WANT to enjoy a unique meal and corresponding music with my favorite chef
-SO THAT I can recreate the restaurant experience at home
+AS A person who enjoys dining experiences,<br/>
+I WANT to enjoy a unique meal and corresponding music with my favorite chef<br/>
+SO THAT I can recreate the restaurant experience at home<br/>
 
-GIVEN I am preparing dinner
-WHEN I open the app
-THEN I am prompted to select a celebrity chef
-WHEN I select a chef
-THEN gifs of that chef appear
-WHEN I am prompted to make a selection based on food I want to cook
-THEN I am presented with a randomized recipe
-WHEN I click the recipe
-THEN a new tab with the recipe opens
-WHEN I do not like the recipe
-THEN I can choose another recipe by clicking the button again
-WHEN I click the feeling lucky button
-THEN a randomized Spotify cooking playlist appears
-WHEN I do not like the playlist
+GIVEN I am preparing dinner<br/>
+WHEN I open the app<br/>
+THEN I am prompted to select a celebrity chef<br/>
+WHEN I select a chef<br/>
+THEN gifs of that chef appear<br/>
+WHEN I am prompted to make a selection based on food I want to cook<br/>
+THEN I am presented with a randomized recipe<br/>
+WHEN I click the recipe<br/>
+THEN a new tab with the recipe opens<br/>
+WHEN I do not like the recipe<br/>
+THEN I can choose another recipe by clicking the button again<br/>
+WHEN I click the feeling lucky button<br/>
+THEN a randomized Spotify cooking playlist appears<br/>
+WHEN I do not like the playlist<br/>
 THEN I can choose another playlist by clicking the button again
 
 
