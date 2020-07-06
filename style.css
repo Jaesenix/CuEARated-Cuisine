@@ -15,6 +15,14 @@ header > h1 {
     width: 100%;
 }
 
+.ear {
+	color: teal;
+}
+
+.chef-buttons {
+	text-align: center;
+}
+
 .bubble {
 	position: relative;
 	width: 400px;
@@ -80,35 +88,13 @@ header > h1 {
 	border-color: #fff transparent transparent #fff;
 }
 
+.giphyDiv {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 #cseDiv {
 	width: auto;
 	height: auto;
 }
-
-/* .speech-bubble {
-	position: relative;
-	background: #00aabb;
-    border-radius: .4em;
-    margin: 100px 100px;
-}
-
-.speech-bubble > h2 {
-    padding: 30px;
-    text-align: center;
-}
-
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 45px solid transparent;
-	border-top-color: #00aabb;
-	border-bottom: 0;
-	border-left: 0;
-	margin-left: -22.5px;
-	margin-bottom: -45px;
-} */
-	
