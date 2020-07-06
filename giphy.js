@@ -1,5 +1,5 @@
 // Variables
-var gifUrl = "http://api.giphy.com/v1/gifs/search?";
+var gifUrl = "https://api.giphy.com/v1/gifs/search?";
 var APIKey = "YX5nJxh4MAa6JTcABrKTaj04LiiMnc4a";
 var queryUrl = gifUrl + "q=" + chef + "&api_key=" + APIKey + "&limit=10";
 var chef = "";
