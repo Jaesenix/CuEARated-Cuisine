@@ -1,6 +1,6 @@
 # CuEARated-Cuisine
 
-https://docs.google.com/document/d/1VsAG-uksAfr5GX-3artgjjNF59ma4k5S-SWH6rONs1k/edit?ts=5efa1494
+[CuEARated Cuisine](https://jaesenix.github.io/CuEARated-Cuisine/)
 
 ## Project description: 
 
